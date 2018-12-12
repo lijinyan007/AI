@@ -1,0 +1,71 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input,
+div,a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  outline: none;
+  border: 0;
+}
+img {
+  border: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  font-size: 14px;
+  color: #8d9095;
+  font-family:"微软雅黑",Helvetica,Arial,Verdana,sans-serif;
+  background-color: white;
+  font-style: normal;
+  font-weight: normal;
+}
+.clearfix:after {
+  content: '';
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+a {
+  color: #595959;
+  text-decoration: none;
+}
+a:hover {
+  color: #71eafe;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.f18 {
+  font-size: 18px;
+}

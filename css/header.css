@@ -1,0 +1,83 @@
+
+/*header*/
+.header{
+	width: 100%;
+	height: 75px;
+	margin-bottom: 1px;
+	position: fixed;
+	left: 0;
+	top:0px;
+	z-index: 9999;
+	background: #fff;
+}
+.header .wrap{
+	width: 1190px;
+	height: 74px;
+	margin: 0 auto;
+}
+.header .wrap .logo{
+	width: 189px;
+	height: 74px;
+	float: left;
+	padding-top: 22px;
+}
+.header .wrap .logo img{
+	width: 189px;
+	height: 38px;
+	line-height: 38px;
+}
+/*nav*/
+.header .wrap .nav{
+	width: 872px;
+	height: 74px;
+	float: left;
+	padding-left: 178px;
+}
+.header .wrap .nav ul li{
+	float: left;
+	width: 58px;
+	height: 74px;
+	margin-right: 42px;
+	line-height:74px;
+}
+.header .wrap .nav ul li span{
+	width: 0;
+	height: 1px;
+	background: #71eafe;
+}
+/*.header .wrap .nav ul li .active{
+	display: block;
+}*/
+.header .wrap .nav ul .active {
+	border-bottom: 1px solid #71eafe;
+}
+.header .wrap .nav ul a{
+	text-decoration: none;
+
+}
+.header .wrap .nav ul .active a{
+	color:#71eafe ;
+	text-decoration: none;
+}
+/*end nav*/
+.header .wrap .tel {
+	width: 120px;
+	height: 74px;
+	line-height: 74px;
+	float: right;
+	position: relative;
+}
+.header .wrap .tel span{
+	background: url(../img/pic.png) no-repeat -5px  -386px;
+	width: 18px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -5px;
+}
+.header .wrap .tel p{
+	float: right;
+}
+/*end header*/

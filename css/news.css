@@ -1,0 +1,97 @@
+.main{
+	background: #fff;
+	position: relative;
+	top: 75px;
+}
+.main .content{
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.main .content dl{
+	width: 1190px;
+	height: 854px;
+	position: relative;
+}
+.main .content dl dt{
+	width: 806px;
+	height: 170px;
+	border-bottom: 1px dashed #999999;
+	padding-top: 20px;
+	padding-left:6px;
+	position: absolute;
+	left: 2000px;
+}
+.main .content dl dt img{
+	width: 180px;
+	height: 120px;
+	float: left;
+	margin-right: 24px;
+}
+.main .content dl dt .all{
+	width: 572px;
+	float: left;
+}
+.main .content dl dt .all h2{
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 22px;
+}
+.main .content dl dt .all .one{
+	height: 10px;
+	font-size: 10px;
+	margin-bottom: 15px;
+}
+.main .content dl dt .all .two{
+	height: 22px;
+	line-height: 22px;
+}
+.main .content dl dd{
+	width: 278px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.main .content dl dd h2{
+	color: #42EAFF;
+	margin-bottom: 15px;
+}
+.main .content dl dd ul li {
+	background: url(../img/icon.png) no-repeat 0px -112px;
+	height: 46px;
+	line-height: 46px;
+	padding-left: 18px;
+}
+
+.main .content dl dd ul li a{
+	width: 178px;
+	height: 46px;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	float: left;
+}
+.main .content dl dd ul li span{
+	width: 62px;
+	height: 46px;
+	display: block;
+	float: right;
+}
+#pages{
+	width: 100%;
+	height: 86px;
+	line-height: 86px;
+	text-align: center;
+	margin: 0 auto;
+}
+#pages span{
+	float: left;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+#pageslist{
+	float: left;
+}

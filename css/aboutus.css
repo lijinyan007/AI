@@ -1,0 +1,58 @@
+.main {
+	background: #fff;
+	position: relative;
+	top: 75px;
+	margin-bottom: 30px;
+}
+
+
+/*.main .wrap-center*/
+
+.main .wrap-center {
+	width: 1190px;
+	height: 570px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.main .wrap-center dl {
+	width: 1190px;
+	height: 500px;
+}
+
+.main .wrap-center dl dt {
+	width: 840px;
+	height: 100%;
+	float: left;
+	/*margin-right: 60px;*/
+}
+
+.main .wrap-center dl h2 {
+	font-size: 20px;
+	color: #000000;
+	margin-bottom: 38px;
+}
+
+.main .wrap-center dl dt p {
+	line-height: 26px;
+	margin-bottom: 26px;
+}
+
+.main .wrap-center dl dd {
+	width: 290px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+
+#allmap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+
+
+/*end .main .wrap-center*/
